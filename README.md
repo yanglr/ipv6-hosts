@@ -49,14 +49,20 @@
  * 2001:638:902:1::10
  * 139.18.25.34
  * 运营商：University of Leipzig
+ 
+> 更多公共 DNS 服务器请查询： http://public-dns.tk/
 
 
 收录原则
 ----
 1. 本项目主要收集经常访问的且被屏蔽的支持 IPv6 技术的站点，如 Google Search，Gmail，Youtube，Google Plus，Google Docs，Google Play，Wikipedia，Facebook 等等。
-2. 暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。
+2. ~~暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。~~ 已支持Dropbox，StackOverflow。
 3. 部分收录严重影响上网体验的 IPv4 站点，如 Youtube 部分视频缓存服务器，OneDrive等。
 4. 不收录支持 IPv6 但不被屏蔽的站点，如教育网内各大高校的网站。
+
+**Q & A**  
+Q: 为什么没有 Twitter？  
+A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地址；其次针对 Twitter 采取了[DNS污染](https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing)和 IP 封锁等多重封禁手段，仅靠 hosts+HTTPS 并不能实现穿墙。 
 
 关于隐私
 ----
