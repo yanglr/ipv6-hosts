@@ -17,8 +17,7 @@
 脚本
 ----
 [update_hosts.sh](https://github.com/lennylxx/ipv6-hosts/blob/master/update_hosts.sh) 
-> 用于更新 hosts 文件中 IPv6 地址的 BASH 脚本。
-> 单线程，速度非常慢。有时间写个多线程的。
+> 用于更新 hosts 文件中 IPv6 地址的 BASH 脚本。单线程，速度非常慢。有时间写个多线程的。
 
 <pre>./update_hosts.sh hosts new_hosts</pre>
 
@@ -30,8 +29,8 @@
 常用 IPv6 DNS 服务器
 ----
 > * 如果您的网络环境时延较小（ping 下列 DNS 时延小于 60ms），强烈建议您 **不要** 使用本项目，直接配置 IPv6 DNS。  
-> * 因为 hosts 文件维护起来很麻烦，并不能保证 IP 与 DNS 同步，并且 hosts 文件提供的 IP 地址（大多来自国外的公共 DNS ），在您的网络环境下并不一定能提供最佳的访问速度。  
-> * 目前几乎所有的 DNS 都支持 IPv6，如果您所在的网络有可信的且不受干扰的 DNS，建议直接配置 DNS。
+* 因为 hosts 文件维护起来很麻烦，并不能保证 IP 与 DNS 同步，并且 hosts 文件提供的 IP 地址（大多来自国外的公共 DNS ），在您的网络环境下并不一定能提供最佳的访问速度。  
+* 目前几乎所有的 DNS 都支持 IPv6，如果您所在的网络有可信的且不受干扰的 DNS，建议直接配置 DNS。
 
 * **ordns.he.net**
  * 2001:470:20::2
@@ -49,14 +48,20 @@
  * 2001:638:902:1::10
  * 139.18.25.34
  * 运营商：University of Leipzig
+ 
+> 更多公共 DNS 服务器请查询： http://public-dns.tk/
 
 
 收录原则
 ----
 1. 本项目主要收集经常访问的且被屏蔽的支持 IPv6 技术的站点，如 Google Search，Gmail，Youtube，Google Plus，Google Docs，Google Play，Wikipedia，Facebook 等等。
-2. 暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。
+2. ~~暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。~~ 已支持Dropbox，StackOverflow。
 3. 部分收录严重影响上网体验的 IPv4 站点，如 Youtube 部分视频缓存服务器，OneDrive等。
-4. 不收录支持 IPv6 但不被屏蔽的站点，如教育网内各大高校的网站。
+4. 不收录支持 IPv6 但不被屏蔽的站点，如教育网内各大高校的网站。  
+
+> **Q & A**  
+Q: 为什么没有 Twitter？  
+A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地址；其次针对 Twitter 采取了[DNS 污染](https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing)和 IP 封锁等多重封禁手段，仅靠 hosts+HTTPS 并不能实现穿墙。 
 
 关于隐私
 ----
