@@ -64,7 +64,7 @@ A: 将 Google 的动态 IPv6 前缀换为较近的地址段(如香港，日本�
 收录原则
 ----
 1. 本项目主要收集经常访问的且被屏蔽的支持 IPv6 技术的站点，如 Google Search，Gmail，Youtube，Google Plus，Google Docs，Google Play，Wikipedia，Facebook 等等。
-2. ~~暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。~~ 已支持 Dropbox，StackOverflow。
+2. ~~暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。~~ 已支持 Dropbox，StackOverflow，deviantART。
 3. 部分收录严重影响上网体验的 IPv4 站点，如 Youtube 部分视频缓存服务器，OneDrive 等。
 4. 不收录支持 IPv6 但不被屏蔽的站点，如教育网内各大高校的网站。  
 
