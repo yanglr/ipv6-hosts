@@ -18,13 +18,13 @@ What
 
 脚本
 ----
-[update_hosts.sh](https://github.com/lennylxx/ipv6-hosts/blob/master/update_hosts.sh) 
+[update_hosts.sh](update_hosts.sh) 
 > 用于更新 hosts 文件中 IPv6 地址的 BASH 脚本。单线程，速度非常慢。有时间写个多线程的。
 
 ```
 ./update_hosts.sh hosts new_hosts
 ```
-[merge_snippets.sh](https://github.com/lennylxx/ipv6-hosts/blob/master/merge_snippets.sh) 
+[merge_snippets.sh](merge_snippets.sh) 
 > 用于合并 hosts 文件的 BASH 脚本。
 
 ```
