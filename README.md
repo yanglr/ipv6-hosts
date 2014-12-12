@@ -65,13 +65,16 @@ A: 将 Google 的动态 IPv6 前缀换为较近的地址段(如香港，日本�
 ----
 1. 本项目主要收集经常访问的且被屏蔽的支持 IPv6 技术的站点，如 Google Search，Gmail，Youtube，Google Plus，Google Docs，Google Play，Wikipedia，Facebook 等等。
 2. ~~暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。~~    
-   已支持 Dropbox，StackOverflow，deviantART等。([查看支持网站列表](https://github.com/lennylxx/ipv6-hosts/wiki/CDN-Services))
+   已支持 Twitter，Dropbox，StackOverflow，deviantART等。([查看支持网站列表](https://github.com/lennylxx/ipv6-hosts/wiki/CDN-Services))
 3. 部分收录严重影响上网体验的 IPv4 站点，如 Youtube 部分视频缓存服务器，OneDrive 等。
 4. 不收录支持 IPv6 但不被屏蔽的站点，如教育网内各大高校的网站。  
 
 > **Q & A**  
 Q: 为什么没有 Twitter？  
 A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地址；其次针对 Twitter 采取了 [DNS 污染](https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing)和 IP 封锁等多重封禁手段，仅靠 hosts+HTTPS 并不能实现穿墙。 
+
+> Q: 为什么又有了 Twitter？  
+  A: 因为找到了没有被封的 IP。 XD
 
 关于隐私
 ----
