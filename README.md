@@ -14,7 +14,7 @@ What
 | ----- | ------------------------------------------------------------------ |
 | Hosts | https://raw.githubusercontent.com/lennylxx/ipv6-hosts/master/hosts |
 | Wiki  | https://github.com/lennylxx/ipv6-hosts/wiki                        |
-| Info  | [1e100 服务器部署信息表]                                           |
+| Info  | [1e100 服务器部署信息表], [SN 编码服务器列表]                      |
 
 * 虽然本项目给出了一些域名的 IPv6 地址，某些网站仍需要使用 HTTPS 协议才能正常访问。  
   推荐使用 [HTTPS Everywhere] 插件，支持主流的浏览器。
@@ -108,6 +108,7 @@ A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地
 [update_hosts.sh]:        update_hosts.sh
 [1e100.net]:              https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net
 [1e100 服务器部署信息表]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
+[SN 编码服务器列表]:      https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
 [DNS 污染]:               https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing
 [HTTPS Everywhere]:       https://www.eff.org/https-everywhere
 [ipv6-hosts]:             https://code.google.com/p/ipv6-hosts
