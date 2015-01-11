@@ -23,15 +23,21 @@ What
 脚本
 ----
 
-[update_hosts.sh]
-> 用于更新 hosts 文件中 IPv6 地址的 BASH 脚本。单线程，速度非常慢，有时间写个多线程的。
+[update_hosts.py]
+> 用于更新 hosts 文件中 IPv6 地址的多线程 Python 脚本。
 
-    ./update_hosts.sh hosts new_hosts
+```
+usage: ./update_hosts.py [-h] [-s DNS] [-t QUERY_TYPE] [-n THREAD_NUM]
+      -i INPUT_FILE [-o OUTPUT_FILE]
+A simple multi-threading tool used to update hosts file.
+```
 
 [merge_snippets.sh]
 > 用于合并 hosts 文件的 BASH 脚本。
 
-    ./merge_snippets.sh new_hosts
+```
+usage: ./merge_snippets.sh new_hosts
+```
 
 常用公共 DNS 服务器
 -------------------
@@ -105,7 +111,7 @@ A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地
 [05]:                     snippets/05_bigcache.txt
 [06]:                     snippets/06_googleusercontent.txt
 [merge_snippets.sh]:      merge_snippets.sh
-[update_hosts.sh]:        update_hosts.sh
+[update_hosts.py]:        update_hosts.py
 [1e100.net]:              https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net
 [1e100 服务器部署信息表]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
 [SN 编码服务器列表]:      https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
