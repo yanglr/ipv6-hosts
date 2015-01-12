@@ -37,7 +37,7 @@ Options:
   -i IN_FILE             input hosts file, default: hosts
   -o OUT_FILE            ouput file, default: hosts.new
   -t QUERY_TYPE          dig command query type, defalut: aaaa
-  -n THREAD_NUM          set the number of worker thread, default: 10
+  -n THREAD_NUM          set the number of worker threads, default: 10
 ```
 
 [merge_snippets.sh]
