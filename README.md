@@ -27,15 +27,13 @@ What
 > 用于更新 hosts 文件中 IPv6 地址的多线程 Python 脚本。
 
 ```
-usage: update_hosts [-h] [-s DNS] [-t QUERY_TYPE] [-n THREAD_NUM]
-                -i IN_FILE [-o OUT_FILE]
+usage: update_hosts [OPTIONS] FILE
 A simple multi-threading tool used to update hosts file.
 
 Options:
   -h, --help             show this help message and exit
   -s DNS                 set another dns server, default: 2001:4860:4860::8844
-  -i IN_FILE             input hosts file, default: hosts
-  -o OUT_FILE            ouput file, default: hosts.new
+  -o OUT_FILE            ouput file, default: inputfilename.out
   -t QUERY_TYPE          dig command query type, defalut: aaaa
   -n THREAD_NUM          set the number of worker threads, default: 10
 ```
