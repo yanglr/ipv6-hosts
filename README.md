@@ -78,18 +78,18 @@ Q: 我访问 Google 太慢了，如何加速？
 A: 将 Google 的动态 IPv6 前缀换为较近的地址段(如香港，日本等)：  
 这些动态 IP 大多分布在 snippets:[01]-[02]-[03]-[04]-[05]-[06] 中。  
 如可以将 `2404:6800:400a: (大阪)` 换为 `2404:6800:4005: (香港)`。  
-更多信息请参考 [1e100.net] 和 [Youtube]。  
+更多信息请参考 [1e100.net] 和 [YouTube]。  
 当前版本采用了最快的洛杉矶的服务器，北京教育网延时约为 160 ms。
 
 收录原则
 --------
 
 1. 本项目主要收集经常访问的且被屏蔽的支持 IPv6 技术的站点，如
-   Google Search，Gmail，Youtube，Google Plus，Google Docs，Google Play，
+   Google Search，Gmail，YouTube，Google Plus，Google Docs，Google Play，
    Wikipedia，Facebook 等等。
 2. ~~暂时不收录不支持 IPv6 且被屏蔽的站点，如 Twitter。~~  
    已支持 Twitter，Dropbox，StackOverflow，deviantART等。([查看支持网站列表])
-3. 部分收录严重影响上网体验的 IPv4 站点，如 Youtube 部分视频缓存服务器，OneDrive 等。
+3. 部分收录严重影响上网体验的 IPv4 站点，如 YouTube 部分视频缓存服务器，OneDrive 等。
 4. 不收录支持 IPv6 但不被屏蔽的站点，如教育网内各大高校的网站。
 
 > **Q & A**  
@@ -124,5 +124,5 @@ A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地
 [DNS 污染]:               https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing
 [HTTPS Everywhere]:       https://www.eff.org/https-everywhere
 [ipv6-hosts]:             https://code.google.com/p/ipv6-hosts
-[Youtube]:                https://github.com/lennylxx/ipv6-hosts/wiki/Youtube
+[YouTube]:                https://github.com/lennylxx/ipv6-hosts/wiki/YouTube
 [查看支持网站列表]:       https://github.com/lennylxx/ipv6-hosts/wiki/CDN-Services
