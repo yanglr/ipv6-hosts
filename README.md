@@ -35,6 +35,7 @@ Options:
   -s DNS                 set another dns server, default: 2001:4860:4860::8844
   -o OUT_FILE            ouput file, default: inputfilename.out
   -t QUERY_TYPE          dig command query type, defalut: aaaa
+  -c, --cname            write canonical name into hosts file
   -n THREAD_NUM          set the number of worker threads, default: 10
 ```
 
