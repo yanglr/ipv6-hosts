@@ -76,10 +76,7 @@ usage: ./merge_snippets.sh new_hosts
 
 > **Q & A**  
 Q: 我访问 Google 太慢了，如何加速？  
-A: 将 Google 的动态 IPv6 前缀换为较近的地址段(如香港，日本等)：  
-这些动态 IP 大多分布在 snippets:[01]-[02]-[03]-[04]-[05]-[06] 中。  
-如可以将 `2404:6800:400a: (大阪)` 换为 `2404:6800:4005: (香港)`。  
-更多信息请参考 [1e100.net] 和 [YouTube]。  
+A: 将 Google 的动态 IPv6 前缀换为延时较低的地址段，了解[如何加速]。  
 当前版本采用了最快的洛杉矶的服务器，北京教育网延时约为 160 ms。
 
 收录原则
@@ -111,19 +108,13 @@ A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地
 * 常怀感恩之心，切勿滥用免费资源。
 
 
-[01]:                     snippets/01_google.txt
-[02]:                     snippets/02_l.google.txt
-[03]:                     snippets/03_adwords.txt
-[04]:                     snippets/04_android.txt
-[05]:                     snippets/05_bigcache.txt
-[06]:                     snippets/06_googleusercontent.txt
+
 [merge_snippets.sh]:      merge_snippets.sh
 [update_hosts.py]:        update_hosts.py
-[1e100.net]:              https://github.com/lennylxx/ipv6-hosts/wiki/1e100.net
+[ipv6-hosts]:             https://code.google.com/p/ipv6-hosts
 [1e100 服务器部署信息表]: https://docs.google.com/spreadsheets/d/1a5HI0lkc1TycJdwJnCVDVd3x6_gemI3CQhNHhdsVmP8
 [SN 编码服务器列表]:      https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
-[DNS 污染]:               https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing
 [HTTPS Everywhere]:       https://www.eff.org/https-everywhere
-[ipv6-hosts]:             https://code.google.com/p/ipv6-hosts
-[YouTube]:                https://github.com/lennylxx/ipv6-hosts/wiki/YouTube
+[如何加速]:               https://github.com/lennylxx/ipv6-hosts/wiki/How-to-speed-up
 [查看支持网站列表]:       https://github.com/lennylxx/ipv6-hosts/wiki/CDN-Services
+[DNS 污染]:               https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing
