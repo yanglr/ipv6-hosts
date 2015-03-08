@@ -19,6 +19,10 @@ What
 * 虽然本项目给出了一些域名的 IPv6 地址，某些网站仍需要使用 HTTPS 协议才能正常访问。  
   推荐使用 [HTTPS Everywhere] 插件，支持主流的浏览器。
 
+> **Q & A**  
+Q: 我访问 Google 太慢了，如何加速？  
+A: 将 Google 的动态 IPv6 前缀换为延时较低的地址段，了解[如何加速]。  
+当前版本采用了最快的洛杉矶的服务器，北京教育网延时约为 160 ms。
 
 脚本
 ----
@@ -73,11 +77,6 @@ usage: ./merge_snippets.sh new_hosts
 | City     | Hong Kong              | Tokyo              |
 
 更多公共 DNS 服务器请查询： http://public-dns.tk
-
-> **Q & A**  
-Q: 我访问 Google 太慢了，如何加速？  
-A: 将 Google 的动态 IPv6 前缀换为延时较低的地址段，了解[如何加速]。  
-当前版本采用了最快的洛杉矶的服务器，北京教育网延时约为 160 ms。
 
 收录原则
 --------
