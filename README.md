@@ -106,6 +106,9 @@ A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地
   特殊情况下，这些信息全部可以用于追踪。
 * 常怀感恩之心，切勿滥用免费资源。
 
+License
+-------
+This project is licensed under the [MIT license](LICENSE).
 
 
 [merge_snippets.sh]:      merge_snippets.sh
