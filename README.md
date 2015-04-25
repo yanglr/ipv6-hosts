@@ -108,7 +108,8 @@ A: 首先 Twitter 不支持 IPv6，网上流传的地址并不是官方 IPv6 地
 
 License
 -------
-This project is licensed under the [MIT license](LICENSE).
+Code of this project is licensed under the [MIT license](LICENSE).  
+Content of this project (including hosts files, wiki, and Google sheets) is licensed under [![CC Image]][CC BY-NC-SA 3.0].
 
 
 [merge_snippets.sh]:      merge_snippets.sh
@@ -120,3 +121,5 @@ This project is licensed under the [MIT license](LICENSE).
 [如何加速]:               https://github.com/lennylxx/ipv6-hosts/wiki/How-to-speed-up
 [查看支持网站列表]:       https://github.com/lennylxx/ipv6-hosts/wiki/CDN-Services
 [DNS 污染]:               https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing
+[CC Image]:               https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png
+[CC BY-NC-SA 3.0]:        https://creativecommons.org/licenses/by-nc-sa/3.0/
