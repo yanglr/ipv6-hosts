@@ -21,7 +21,7 @@ What
 
 > **Q & A**  
 Q: 我访问 Google 太慢了，如何加速？  
-A: 将 Google 的动态 IPv6 前缀换为延时较低的地址段，了解[如何加速]。  
+A: 将 Google 的动态 IPv6 前缀换为延时较低的地址段，了解[如何加速]和[自定义 hosts 文件]。  
 当前版本采用了最快的洛杉矶的服务器，北京教育网延时约为 160 ms。
 
 脚本
@@ -119,6 +119,7 @@ Content of this project (including hosts files, wiki, and Google sheets) is lice
 [SN 编码服务器列表]:      https://docs.google.com/spreadsheets/d/14gT1GV1IE0oYCq-1Dy747_5FWNxL26R-9T5htJ485dY
 [HTTPS Everywhere]:       https://www.eff.org/https-everywhere
 [如何加速]:               https://github.com/lennylxx/ipv6-hosts/wiki/How-to-speed-up
+[自定义 hosts 文件]:      https://github.com/lennylxx/ipv6-hosts/wiki/Do-It-Yourself
 [查看支持网站列表]:       https://github.com/lennylxx/ipv6-hosts/wiki/CDN-Services
 [DNS 污染]:               https://github.com/lennylxx/ipv6-hosts/wiki/DNS-spoofing
 [CC Image]:               https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png
