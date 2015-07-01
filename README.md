@@ -7,7 +7,7 @@ Google Code 上的 [ipv6-hosts] 项目已经不是很活跃，很多域名也已
 What
 ----
 
-Host file which is used for improving IPv6 access speed to Google, YouTube, 
+Hosts file which is used for improving IPv6 access speed to Google, YouTube, 
 Facebook, Wikipedia, etc. in Mainland China.
 
 将 ipv6-hosts 地址重新进行分类整理，添加了许多新地址，并且提供了一个刷新地址的脚本。
